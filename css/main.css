@@ -232,6 +232,93 @@ body{
     text-align: center;
     color: #333D4B;
 }
+
+/* Service */
+
+.service__info{
+    /* width: 540px; */
+    background-color:#2C343E ;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.service-heading{
+    padding-top: 100px;
+    padding-right: 475.5px;
+    padding-left: 475.5px;
+}
+
+.service__info__paragraph{
+    padding-bottom: 317px;
+    width: 540px;
+    margin: 0 auto;
+}
+.service__info{
+    color: #FEFCF7;
+}
+
+/* Services */
+
+
+.services{
+    width: 350px;
+}
+.services__sub__list{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__sub__item{
+    /* position: absolute; */
+    width: 350px;
+    background-color: #0E8784;
+    list-style-type: none;
+    border-radius: 8px;
+}
+
+.quality{
+    background-image: url(../images/coffe.png);
+    width: 71px;
+    height: 72px;
+    padding-top: 72px;
+    align-items: center;
+}
+
+.benefits{
+    background-image: url(../images/surprise.png);
+    width: 72px;
+    height: 72px;
+    padding-top: 72px;
+    align-items: center;
+
+}
+
+.shipping{
+    background-image: url(../images/car.png);
+    width: 72px;
+    height: 50px ;
+    padding-top: 72px;
+    align-items: center;
+}
+.services__sub__heading{
+    font-family:Fraunces;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.services__sub__text{
+    font-family: Barlow;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    
+}
 /* Button */
 
 .button{
@@ -386,6 +473,8 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 1320px;
+    padding: 85px;
+    padding-bottom: 190px;
     background-image: url(../images/Mask-about.png);
     background-repeat: no-repeat;
     position: relative;
@@ -405,6 +494,17 @@ body{
     color: #FEFCF7;
 }
 
+.quality__heading::before{
+    bottom: 40%;
+    right: 10%;
+    width: 445px;
+    height: 447px;
+    position: absolute;
+    background-image: url(../images/Bitmap2-about.jpg);
+    background-repeat: no-repeat;
+    content: "";
+    
+}
 .quality__paragraph{
     padding-top: 32px;
     padding-left: 85px;
@@ -417,6 +517,73 @@ body{
     opacity: 0.8;
 }
 
-.quality__img{
+/* Our headquarters */
+
+.headquarters{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.headquarters__table{
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.headquarters__sub__list{
+    display: flex;
+    justify-content: space-between;
+}
+.headquarters__table__child{
+    padding: 85px;
+}
+.headquarters__table__list{
+    margin: 0;
+    padding: 85px;
+    padding: 0;
+    list-style-type: none;
     
+}
+.content{
+    width: 1045px;
+    height: 262px;
+    
+}
+.headquarters__sub__item{
+    align-items: center;
+    justify-content: center;
+}
+
+.headquarters__sub__heading{
+    width: 272px;
+    height: 36;
+}
+
+.headquarters__sub__text{
+    width:285px ;
+    height: 107px;
+}
+
+.headquarters__table__img{
+    width:48.97px;
+    height:43.94px ;
+    margin-bottom: 55px;
+}
+.headquarter__table__item{
+    margin-bottom: 24px;
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    
+}
+
+.headquarters__table__item{
+    font-family: Barlow;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
 }
